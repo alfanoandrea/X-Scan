@@ -4,7 +4,7 @@
 
 ![X-Scan Banner](https://img.shields.io/badge/X--Scan-Security%20Assessment%20Tool-red?style=for-the-badge)
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue?style=flat-square)
-![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)
+![License](https://img.shields.io/badge/license-Proprietary-darkred?style=flat-square)
 ![Version](https://img.shields.io/badge/version-1.0-orange?style=flat-square)
 
 **A Professional Network Vulnerability Scanner with Real-Time CVE Analysis**
@@ -504,49 +504,54 @@ chmod 755 scans
 
 ## 🤝 Contributing
 
-We welcome contributions! Here's how to contribute:
+⚠️ **CONTRIBUTIONS ARE NOT ACCEPTED**
 
-1. **Fork** the repository
-2. **Create** a feature branch (`git checkout -b feature/amazing-feature`)
-3. **Commit** your changes (`git commit -m 'Add amazing feature'`)
-4. **Push** to the branch (`git push origin feature/amazing-feature`)
-5. **Open** a Pull Request
+This software is **proprietary and strictly confidential**. Due to the restrictive nature of the proprietary license, the Owner does not accept:
+- Pull requests
+- Forks
+- Derivative works
+- Code contributions
+- Any modifications
 
-### Contribution Guidelines
-- Follow PEP 8 Python style guide
-- Add docstrings to new functions
-- Test thoroughly before submitting
-- Update README if adding new features
-- Include brief description of changes
+### For Commercial Use
 
-### Possible Enhancement Areas
-- [ ] JSON/CSV report export formats
-- [ ] Multi-threaded scanning for larger networks
-- [ ] Integration with other vulnerability databases
-- [ ] Real-time monitoring dashboard
-- [ ] Notification system (email/Slack alerts)
-- [ ] Historical trend analysis
-- [ ] Custom reporting templates
+If you are interested in:
+- **Commercial licensing**
+- **Customization or modifications**
+- **Integration into your products**
+- **Custom features or enhancements**
+
+Please contact the Owner directly through the GitHub profile for licensing inquiries.
 
 ---
 
 ## 📄 License
 
-This project is licensed under the **MIT License** - see the LICENSE file for details.
+**⚠️ PROPRIETARY SOFTWARE - NOT OPEN SOURCE**
 
-```
-MIT License
+This project is licensed under a **Strict Proprietary License** - see the LICENSE file for complete terms.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+### Quick License Summary
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-```
+This software is **proprietary and confidential**. Key restrictions:
+
+- ✗ **NO distribution** to third parties
+- ✗ **NO commercial use** without written license
+- ✗ **NO modification** or derivative works
+- ✗ **NO reverse engineering** or decompilation
+- ✗ **NO public repository** forks or uploads
+- ✗ **NO usage as a service** (SaaS)
+- ✓ **Evaluation use only** (review, test, personal use)
+- ✓ **Internal use only** on systems you own/control
+
+### Violations Will Result In:
+- Immediate license termination
+- Legal action and civil litigation
+- DMCA takedown notices
+- Damages and attorney fees
+- Criminal prosecution (where applicable)
+
+**For complete terms and commercial licensing inquiries, see the LICENSE file or contact the Owner.**
 
 ---
 

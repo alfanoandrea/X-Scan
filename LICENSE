@@ -1,0 +1,442 @@
+PROPRIETARY SOFTWARE LICENSE AGREEMENT
+X-Scan Network Vulnerability Scanner
+
+VERSION 1.0
+EFFECTIVE DATE: December 9, 2025
+
+================================================================================
+PROPRIETARY NOTICE
+================================================================================
+
+This software ("X-Scan" or "Software") and all associated documentation,
+source code, binaries, and materials are proprietary and confidential property
+of alfanowski (hereinafter "Owner" or "Proprietor").
+
+This Software is NOT open-source and is NOT licensed under any permissive license
+such as MIT, GPL, Apache, or similar.
+
+================================================================================
+1. OWNERSHIP AND INTELLECTUAL PROPERTY RIGHTS
+================================================================================
+
+1.1 EXCLUSIVE OWNERSHIP
+All intellectual property rights, including but not limited to copyright, patent
+rights, trade secrets, and all other proprietary rights in and to the Software,
+including any modifications, derivative works, or improvements thereto, are
+exclusively owned by alfanowski.
+
+1.2 NO TRANSFER OF OWNERSHIP
+The User acknowledges that possession, installation, or execution of the Software
+does NOT constitute ownership or transfer of any intellectual property rights.
+All rights not expressly granted herein are retained by the Owner.
+
+1.3 PROTECTION
+The Owner shall take all necessary legal and technical measures to protect the
+proprietary nature and confidentiality of the Software.
+
+================================================================================
+2. PERMITTED USE
+================================================================================
+
+2.1 EVALUATION LICENSE ONLY
+The Software is provided on an "Evaluation License" basis only. Users are granted
+a non-exclusive, non-transferable, revocable, limited right to:
+
+   a) Review the source code for evaluation purposes only
+   b) Execute the Software for personal testing and evaluation
+   c) Create local copies for backup purposes
+   d) Internal testing on systems you own or control
+
+2.2 LIMITATIONS
+The evaluation license does NOT grant the right to:
+   - Modify, alter, adapt, or create derivative works
+   - Distribute, sell, rent, lease, or transfer the Software
+   - Use the Software for commercial purposes
+   - Integrate the Software into other products or services
+   - Reverse-engineer, decompile, or disassemble the Software
+   - Remove or obscure any proprietary notices or labels
+   - Sublicense, assign, or delegate rights to third parties
+   - Host the Software on public repositories or servers
+   - Use the Software as a service (SaaS) or in cloud environments
+   - Benchmark or compare the Software against competitors
+
+2.3 DURATION
+The evaluation license is effective until revoked by the Owner at any time
+without notice and without cause.
+
+================================================================================
+3. COMMERCIAL AND PRODUCTION USE
+================================================================================
+
+3.1 PROHIBITION WITHOUT LICENSE
+Any use of the Software for commercial purposes, production environments, or
+revenue-generating activities is strictly prohibited without an explicit written
+Commercial License Agreement signed by the Owner.
+
+3.2 COMMERCIAL INQUIRIES
+For licensing inquiries regarding commercial use, deployment in production
+environments, or enterprise applications, contact the Owner directly.
+
+3.3 UNAUTHORIZED COMMERCIAL USE
+Unauthorized commercial use constitutes a material breach and will result in
+immediate termination of all rights and may trigger legal action for damages,
+including but not limited to statutory damages and attorney fees.
+
+================================================================================
+4. SOURCE CODE AND CONFIDENTIALITY
+================================================================================
+
+4.1 CONFIDENTIALITY OBLIGATION
+The User agrees to maintain the confidentiality of the Source Code and Software
+and to treat it as proprietary and confidential information.
+
+4.2 NO DISCLOSURE
+The User SHALL NOT disclose, publish, transmit, or otherwise make available the
+Software or its source code to any third party without explicit written consent
+from the Owner.
+
+4.3 RETURN OR DESTRUCTION
+Upon termination of this License or upon request by the Owner, the User shall
+immediately return or destroy all copies of the Software and certify in writing
+compliance with this requirement.
+
+4.4 RESIDUAL KNOWLEDGE
+Notwithstanding the foregoing, Users may retain general ideas, concepts, or
+algorithms learned during evaluation, provided that the specific source code,
+architecture, or implementation details remain confidential.
+
+================================================================================
+5. MODIFICATION AND DERIVATIVE WORKS
+================================================================================
+
+5.1 STRICT PROHIBITION
+The User is strictly prohibited from:
+   - Modifying, adapting, or altering the Software in any way
+   - Creating derivative works, improvements, or enhancements
+   - Merging the Software with other code or software
+   - Applying patches, fixes, or updates not provided by the Owner
+   - Translating, compiling, or recompiling the Software
+
+5.2 OWNERSHIP OF MODIFICATIONS
+Any modifications, improvements, or derivative works accidentally created shall
+be owned exclusively by the Owner, and the User hereby assigns all such rights
+to the Owner without compensation.
+
+5.3 FEEDBACK
+Any feedback, suggestions, or bug reports provided by the User shall become
+the exclusive property of the Owner and may be used without compensation or
+attribution.
+
+================================================================================
+6. DISTRIBUTION AND TRANSFER
+================================================================================
+
+6.1 NO DISTRIBUTION
+The User SHALL NOT distribute, sublicense, lease, rent, sell, transfer, or
+otherwise make available the Software to any third party.
+
+6.2 NO PUBLIC REPOSITORY
+The User SHALL NOT upload, commit, or publish the Software to any public code
+repository (GitHub, GitLab, Bitbucket, SourceForge, etc.) without explicit
+written permission from the Owner.
+
+6.3 GITHUB AND VERSION CONTROL
+   a) If the User has access to the Repository on GitHub, access is solely for
+      evaluation purposes
+   b) The User shall not fork, clone to public repositories, or create pull
+      requests without explicit authorization
+   c) Private forks are permitted only for evaluation purposes
+   d) Any public distribution will be treated as a material breach
+
+6.4 ENFORCEMENT
+The Owner actively monitors for unauthorized distribution. Violations will result
+in immediate legal action, including DMCA takedown notices and civil litigation.
+
+================================================================================
+7. REVERSE ENGINEERING AND SECURITY RESEARCH
+================================================================================
+
+7.1 REVERSE ENGINEERING PROHIBITED
+The User is strictly prohibited from:
+   - Reverse-engineering, disassembling, or decompiling the Software
+   - Attempting to derive the underlying algorithms or architecture
+   - Performing static or dynamic code analysis for purposes of reproduction
+   - Security research or vulnerability analysis (see Section 7.3)
+
+7.2 TECHNICAL PROTECTION MEASURES
+Any attempt to circumvent, bypass, or disable technical protection measures,
+encryption, or security features is prohibited and may violate applicable law.
+
+7.3 SECURITY RESEARCH EXCEPTION
+If the User identifies a security vulnerability, the User must:
+   a) Report the vulnerability exclusively to the Owner
+   b) Not disclose the vulnerability to third parties
+   c) Not publicly describe the vulnerability for 90 days after reporting
+   d) Allow the Owner reasonable time to develop and deploy a fix
+   e) Accept the Owner's determination of whether to publish or keep confidential
+
+================================================================================
+8. INTELLECTUAL PROPERTY INDEMNITY
+================================================================================
+
+8.1 USER INDEMNIFICATION
+The User agrees to indemnify, defend, and hold harmless the Owner from any and
+all claims, damages, liabilities, costs, and expenses (including reasonable
+attorney fees) arising from:
+   a) The User's unauthorized modification or distribution of the Software
+   b) The User's violation of this License Agreement
+   c) The User's infringement of third-party rights through use of the Software
+   d) The User's breach of confidentiality obligations
+
+================================================================================
+9. WARRANTY DISCLAIMER AND LIABILITY LIMITATION
+================================================================================
+
+9.1 AS-IS BASIS
+THE SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED.
+
+9.2 NO WARRANTIES
+THE OWNER DISCLAIMS ALL WARRANTIES, INCLUDING BUT NOT LIMITED TO:
+   - MERCHANTABILITY
+   - FITNESS FOR A PARTICULAR PURPOSE
+   - NON-INFRINGEMENT OF THIRD-PARTY RIGHTS
+   - TITLE
+   - FREEDOM FROM DEFECTS OR ERRORS
+   - CONTINUOUS OR ERROR-FREE OPERATION
+
+9.3 NO LIABILITY FOR DAMAGES
+IN NO EVENT SHALL THE OWNER BE LIABLE FOR:
+   - DIRECT, INDIRECT, INCIDENTAL, CONSEQUENTIAL, SPECIAL, OR PUNITIVE DAMAGES
+   - LOST PROFITS, REVENUE, DATA, OR BUSINESS OPPORTUNITY
+   - SYSTEM DOWNTIME OR UNAVAILABILITY
+   - SECURITY BREACHES OR UNAUTHORIZED ACCESS
+   - DAMAGE TO HARDWARE, SOFTWARE, OR DATA
+   - DAMAGES FROM NETWORK SCANS OR SECURITY ASSESSMENTS
+
+9.4 LIABILITY CAP
+IN NO EVENT SHALL THE OWNER'S TOTAL LIABILITY EXCEED $100 (ONE HUNDRED DOLLARS),
+REGARDLESS OF THE CAUSE OF ACTION OR THEORY OF LIABILITY.
+
+9.5 USER ASSUMPTION OF RISK
+THE USER ASSUMES ALL RISKS ASSOCIATED WITH THE USE OF THE SOFTWARE.
+
+================================================================================
+10. RESPONSIBLE USE AND LEGAL COMPLIANCE
+================================================================================
+
+10.1 LAWFUL USE ONLY
+The User agrees to use the Software only for lawful purposes and in compliance
+with all applicable federal, state, and local laws and regulations.
+
+10.2 NETWORK SCANNING RESTRICTIONS
+   a) The User may ONLY scan networks and systems the User owns or controls
+   b) The User may ONLY scan with explicit written permission from network owners
+   c) Unauthorized network scanning may violate:
+      - Computer Fraud and Abuse Act (CFAA) - United States
+      - Computer Misuse Act - United Kingdom
+      - Criminal Code - Canada
+      - Similar legislation in other jurisdictions
+   d) The Owner is not responsible for User's violations of law
+
+10.3 PROHIBITED USES
+The User shall NOT use the Software for:
+   - Unauthorized network scanning or penetration testing
+   - Identifying vulnerabilities without authorization
+   - Gaining unauthorized access to systems
+   - Data theft, exfiltration, or unauthorized disclosure
+   - Denial-of-service (DoS) attacks
+   - Malware distribution or research
+   - Privacy violations or surveillance
+   - Any illegal or fraudulent activity
+
+10.4 REGULATORY COMPLIANCE
+The User is responsible for compliance with:
+   - GDPR (General Data Protection Regulation) - EU/EEA
+   - HIPAA (Health Insurance Portability and Accountability Act) - Healthcare
+   - PCI-DSS (Payment Card Industry Data Security Standard) - Payment Systems
+   - SOC 2, ISO 27001, and other applicable standards
+   - State and local privacy laws
+   - Industry-specific regulations
+
+10.5 INDEMNIFICATION FOR ILLEGAL USE
+The User indemnifies the Owner for any legal liability arising from the User's
+illegal or unauthorized use of the Software.
+
+================================================================================
+11. TERMINATION
+================================================================================
+
+11.1 TERMINATION FOR BREACH
+The Owner may terminate this License immediately upon:
+   a) Any violation of this License Agreement
+   b) Any unauthorized use, distribution, or disclosure
+   c) Any attempts at reverse-engineering or circumvention
+   d) Any commercial use without authorization
+   e) Any violation of applicable law
+   f) Any reason or no reason, at the Owner's sole discretion
+
+11.2 EFFECT OF TERMINATION
+Upon termination:
+   a) All rights granted under this License are immediately revoked
+   b) The User must immediately cease use of the Software
+   c) The User must destroy or return all copies of the Software
+   d) All provisions regarding confidentiality, indemnification, and liability
+      remain in effect
+
+11.3 SURVIVAL
+Sections regarding confidentiality, intellectual property, liability, and
+indemnification survive termination indefinitely.
+
+================================================================================
+12. MONITORING AND ENFORCEMENT
+================================================================================
+
+12.1 ACTIVE MONITORING
+The Owner reserves the right to monitor compliance with this License, including:
+   a) Monitoring for unauthorized distribution and public repositories
+   b) Tracking commercial use or attempts to commercialize
+   c) Investigating potential violations
+   d) Taking legal action when necessary
+
+12.2 AUDIT RIGHTS
+The Owner reserves the right to audit the User's use and possession of the
+Software upon reasonable notice.
+
+12.3 LEGAL ACTION
+Breach of this License may result in:
+   - Immediate revocation of all rights
+   - Cease-and-desist orders
+   - Civil litigation for damages
+   - Injunctive relief
+   - Criminal prosecution (where applicable)
+   - DMCA takedown notices (for public distribution)
+   - Payment of the Owner's legal fees and costs
+
+================================================================================
+13. EXPORT COMPLIANCE
+================================================================================
+
+13.1 EXPORT RESTRICTIONS
+The Software may be subject to export control laws and regulations. The User
+agrees not to export or re-export the Software without proper authorization.
+
+13.2 SANCTIONS AND EMBARGOES
+The User shall not use the Software in any country subject to U.S. trade embargoes
+or sanctions, or for prohibited end-uses (nuclear, missile, chemical/biological
+weapons).
+
+================================================================================
+14. UPDATES AND PATCHES
+================================================================================
+
+14.1 NO OBLIGATION TO UPDATE
+The Owner is under no obligation to provide updates, patches, or new versions
+of the Software.
+
+14.2 CONDITIONAL ACCESS
+Any updates or patches provided are conditional upon continued compliance with
+this License Agreement.
+
+14.3 AUTOMATIC REVOCATION
+The Owner may remotely disable or revoke access to the Software at any time
+without notice.
+
+================================================================================
+15. THIRD-PARTY COMPONENTS AND DEPENDENCIES
+================================================================================
+
+15.1 THIRD-PARTY COMPONENTS
+The Software may utilize third-party libraries and components that are subject
+to their own licenses (python-nmap, requests, packaging, etc.).
+
+15.2 THIRD-PARTY COMPLIANCE
+The User is responsible for complying with the terms of all third-party
+component licenses when using those components.
+
+15.3 NO MODIFICATION OF THIRD-PARTY TERMS
+This License does not override or modify the terms of third-party licenses.
+
+================================================================================
+16. SEVERABILITY
+================================================================================
+
+16.1 SEVERABILITY CLAUSE
+If any provision of this License is held to be invalid or unenforceable, such
+provision shall be severed, and the remaining provisions shall remain in full
+force and effect.
+
+16.2 INTERPRETATION
+Any invalid provision shall be interpreted in the manner most consistent with
+the Owner's intent to maintain proprietary control and protection.
+
+================================================================================
+17. ENTIRE AGREEMENT
+================================================================================
+
+17.1 COMPLETE AGREEMENT
+This License Agreement constitutes the entire agreement between the Owner and
+the User regarding the Software and supersedes all prior negotiations,
+representations, and agreements.
+
+17.2 NO MODIFICATION EXCEPT IN WRITING
+No modification of this License is valid unless in writing and signed by the
+Owner.
+
+17.3 NO WAIVER
+The Owner's failure to enforce any provision does not constitute waiver of that
+provision or any other provision.
+
+================================================================================
+18. GOVERNING LAW AND JURISDICTION
+================================================================================
+
+18.1 GOVERNING LAW
+This License Agreement is governed by and construed in accordance with the laws
+of [JURISDICTION TO BE SPECIFIED BY OWNER], without regard to its conflict of
+laws provisions.
+
+18.2 JURISDICTION AND VENUE
+Both parties agree to submit to the exclusive jurisdiction and venue of the
+courts located in [JURISDICTION TO BE SPECIFIED BY OWNER] for any disputes
+arising from this License.
+
+18.3 INJUNCTIVE RELIEF
+The parties acknowledge that breach of this License may cause irreparable harm
+for which monetary damages are an inadequate remedy. Either party may seek
+injunctive relief in addition to other remedies.
+
+================================================================================
+19. CONTACT AND LICENSE INQUIRIES
+================================================================================
+
+For questions regarding this License or to inquire about Commercial Licenses,
+contact the Owner through the GitHub profile:
+https://github.com/alfanoandrea
+
+COMMERCIAL LICENSE INQUIRIES:
+- Contact: [Your contact method]
+- Do NOT use the Software commercially without explicit written permission
+
+================================================================================
+20. ACKNOWLEDGMENT AND ACCEPTANCE
+================================================================================
+
+BY DOWNLOADING, INSTALLING, OR EXECUTING THE SOFTWARE, THE USER ACKNOWLEDGES
+HAVING READ, UNDERSTOOD, AND AGREED TO BE BOUND BY ALL TERMS AND CONDITIONS OF
+THIS PROPRIETARY LICENSE AGREEMENT.
+
+IF THE USER DOES NOT AGREE TO THESE TERMS, THE USER SHALL NOT USE THE SOFTWARE
+AND SHALL DELETE ALL COPIES IMMEDIATELY.
+
+================================================================================
+
+PROPRIETARY SOFTWARE - ALL RIGHTS RESERVED
+© 2024-2025 alfanowski
+
+This license is effective immediately and remains in effect until terminated
+by the Owner.
+
+Version: 1.0
+Last Updated: December 9, 2025
+
+================================================================================
