@@ -1,4 +1,4 @@
-version = "1.1.1"
+version = "1.1.2"
 scriptURL = "https://raw.githubusercontent.com/alfanowski/X-Scan/main/xscan.py"
 
 
