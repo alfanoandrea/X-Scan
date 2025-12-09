@@ -1,5 +1,5 @@
-version = "1.1"
-scriptURL = "https://raw.githubusercontent.com/alfanoandrea/password-compiler/main/X-Scan.py"
+version = "1.0"
+scriptURL = "https://raw.githubusercontent.com/alfanoandrea/X-Scan/main/xscan.py"
 
 
 
@@ -74,33 +74,37 @@ def internet():
     
 def update():
     Graphic.intro(dynamic = False)
+    print(f"{Style.gray}  Checking for updates...{Style.reset}")
     try:
         response_check = requests.get(scriptURL, headers={'Range': 'bytes=0-200'}, timeout=5)
         response_check.raise_for_status()
         first_lines = response_check.text
-        match = re.search(r'version\s*=\s*["\'](\d+\.\d+)["\']', first_lines)    
+        # Accept semantic versions with more than two parts
+        match = re.search(r'version\s*=\s*["\']([\d\.]+)["\']', first_lines)
         if not match:
+            print(f"{Style.yellow}  [!] Could not find a version string in the remote script.\n{Style.reset}")
             return
-        latestVersion = match.group(1)    
-    except requests.exceptions.RequestException:
+        latestVersion = match.group(1)
+    except requests.exceptions.RequestException as e:
+        print(f"{Style.red}  [!] Update check failed: {e}{Style.reset}")
         return
+
     if version != latestVersion:
-        print(f"{Style.yellow}  New version {Style.green}({latestVersion}){Style.yellow} avaible. Updating...{Style.reset}\n")
+        print(f"{Style.yellow}  New version {Style.green}({latestVersion}){Style.yellow} available. Updating...{Style.reset}\n")
         try:
             response_script = requests.get(scriptURL, timeout=10)
             response_script.raise_for_status()
             script_filename = os.path.basename(__file__)
-            with open(script_filename, 'w') as f:
+            with open(script_filename, 'w', encoding='utf-8') as f:
                 f.write(response_script.text)
             print(f"{Style.green}  Update completed, you can restart the script.\n{Style.reset}")
             exit(0)
-        except requests.exceptions.RequestException:
-            print(f"{Style.red}  [!] Error downloading script. Check {scriptURL}{Style.reset}")
-        except IOError:
-             print(f"{Style.red}  [!] Writing error! Check directory permissions.{Style.reset}")
+        except requests.exceptions.RequestException as e:
+            print(f"{Style.red}  [!] Error downloading script: {e}. Check {scriptURL}{Style.reset}")
+        except IOError as e:
+            print(f"{Style.red}  [!] Writing error! Check directory permissions: {e}{Style.reset}")
     else:
         print(f"{Style.cyan}  You are using the latest version ({version}).{Style.reset}\n")
-        pass
 
         
 
